@@ -1,0 +1,35 @@
+@import "../../responsive.scss"; 
+
+
+.layout{
+    // background-color: aquamarine;
+    height: 100vh;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    // overflow: hidden;
+
+    @include lg{
+        // background-color: blueviolet;
+        max-width: 1280px;
+    }
+    @include md{
+        // background-color: green;
+        max-width: 768px;
+    }
+    @include sm{
+        // background-color: red;
+        max-width: 640px;
+        padding: 0 1rem;
+    }
+
+    .content{
+        // background-color: cadetblue;
+        height: calc(100vh - 100px);
+        // flex: 1;
+        // height: 100%;
+    }
+}
