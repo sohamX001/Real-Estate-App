@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Layout, RequireAuth } from "./routes/layout/layout";
 import HomePage from "./routes/homePage/HomePage";
 import SinglePage from "./routes/singlePage/SinglePage";
-import ListPage from "./routes/listPage/listPage";
+import ListPage from "./routes/listPage/ListPage";
 import ProfilePage from "./routes/profilePage/ProfilePage";
 import Register from "./routes/register/Register";
 import Login from "./routes/login/Login";
